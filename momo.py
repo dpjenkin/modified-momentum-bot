@@ -9,8 +9,8 @@ from pytz import timezone
 
 # Replace these with your API connection info from the dashboard
 base_url = 'https://api.alpaca.markets'
-api_key_id = 'AKNBQ4USVZKH6VMW3VTU'
-api_secret = '0NBuQsFroH3xUcvYk5RTlZWB9CQeEyBOuldi212u'
+api_key_id = '??????'
+api_secret = '??????'
 
 api = tradeapi.REST(
     base_url=base_url,
