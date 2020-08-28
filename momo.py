@@ -224,7 +224,7 @@ def run(tickers, market_open_dt, market_close_dt):
                 data.close > high_15m and
                 volume_today[symbol] > 30000
             ):
-                return
+                
 
                 # Stock has passed all checks; figure out how much to buy
                 stop_price = find_stop(
